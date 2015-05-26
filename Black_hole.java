@@ -1,11 +1,10 @@
-package a;
+ 
 
 
 /**
- * Write a description of class Black_hole here.
+ * Keeps track of the created instance variables for the execution of the Calculation class, and runs the necessary algorithms. 
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Jay Patel and Rohan Balel 
  */
 public class Black_hole
 {
@@ -24,6 +23,9 @@ public class Black_hole
         q = productCharges;
         t = constant;
     }
+    /**
+     * Runs the necessary algorithms and solves for the acceleration, velocity and displacement.
+     */
     public void change()
     {
         a = Math.pow(1/x,2);

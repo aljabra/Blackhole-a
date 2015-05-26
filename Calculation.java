@@ -1,11 +1,10 @@
-package a;
+ 
 
 import java.util.Scanner;
 /**
- * Write a description of class Calculation here.
+ * Asks the user for input values and returns the corresponding acceleration, velocity, and displacement.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Jay Patel and Rohan Balel
  */
 public class Calculation
 {
